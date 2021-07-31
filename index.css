@@ -38,3 +38,9 @@ h5 {
 h6 {
   font-size: 14px;
 }
+
+.hero-section {
+  width: 100%;
+  height: 1000px;
+  background-color: #0c1014;
+}
