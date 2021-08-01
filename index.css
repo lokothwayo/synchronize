@@ -110,6 +110,13 @@ h6 {
   top: 15%;
   padding: 0 5px;
 }
+
+.hero-content h1:first-of-type {
+  background-image: linear-gradient(to right bottom, #f53c95, #0044ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .hero-images img {
   width: 15vw;
   height: auto;
