@@ -98,10 +98,21 @@ h6 {
   text-align: center;
   font-size: 150px;
   font-weight: 600;
+  position: relative;
+  top: 15%;
+}
+
+.hero-images {
   position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -40%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 15%;
+  padding: 0 5px;
+}
+.hero-images img {
+  width: 15vw;
+  height: auto;
 }
 
 .hero-desc {
