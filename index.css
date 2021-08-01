@@ -131,12 +131,26 @@ h6 {
 .hero-desc {
   text-align: center;
   width: 100%;
-  position: absolute;
-  top: 80%;
+  position: relative;
+  top: 25%;
 }
 
 .hero-desc p {
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: 300;
   line-height: 1.7;
+}
+
+.download-btn {
+  margin: 5% auto;
+  position: relative;
+}
+
+.signal {
+  position: absolute;
+  height: 100px;
+  width: auto;
+  left: 160px;
+  top: -50px;
+  transform: rotate(-10deg);
 }
