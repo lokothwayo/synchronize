@@ -96,10 +96,22 @@ h6 {
 
 .hero-content {
   text-align: center;
-  font-size: 150px;
+  font-size: 12vw;
   font-weight: 600;
   position: relative;
   top: 15%;
+}
+
+.hero-content h1:first-of-type {
+  background-image: linear-gradient(to right bottom, #f53c95, #0044ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-content h1:last-of-type {
+  background-image: linear-gradient(to right bottom, #004bfa, #02f18e);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .hero-images {
@@ -109,12 +121,6 @@ h6 {
   width: 100%;
   top: 15%;
   padding: 0 5px;
-}
-
-.hero-content h1:first-of-type {
-  background-image: linear-gradient(to right bottom, #f53c95, #0044ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .hero-images img {
