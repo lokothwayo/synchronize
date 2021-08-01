@@ -78,6 +78,21 @@ h6 {
 .nav-links li a {
   font-size: 22px;
   font-weight: 400;
+  background-image: linear-gradient(
+    to right,
+    #0066ff 0%,
+    #00ffe0 50%,
+    #fcf9ff 50%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-position: 0% 100%;
 }
 
 .btn {
