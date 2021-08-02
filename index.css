@@ -387,3 +387,43 @@ h6 {
 .contants-info p{
   font-size: 10px;
 }
+
+/* ***************************** */
+/* Chat Section */
+
+.app-chat-section {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 55%;
+}
+
+.app-chat-section-nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.chat-users{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-users img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: -5px;
+}
+
+.add-users{
+  background-color: #00aee5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: -5px;
+  font-size: 40px;
+  text-align: center;
+}
