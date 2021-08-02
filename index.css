@@ -861,3 +861,69 @@ ion-icon:hover{
   filter: blur(0);
   transform: scale(1);
 }
+
+/* *************Help Section********* */
+
+.support-section{
+  background-color: #0c1014;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.support-header{
+  margin-top: 50px;
+
+}
+
+.support-article{
+  margin-top: 2%;
+  background-color: #0c1014;
+  width: 1200px;
+  height: 750px;
+  box-shadow: 0 0 40px 10px #000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  paddding: 20px;
+}
+
+input[type='text'], input[type='submit'], input[type='email'], select{
+  width: 100%;
+  padding:12px;
+  margin: 8px 0;
+  background-color:#f3e7d9;
+  border: none;
+}
+
+.check-box{
+  font-size: 16px;
+}
+
+input[type='checkbox']{
+  margin-top: 20px;
+}
+
+input[type='submit']{
+  background-color: #11dd22;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+input[type='submit']:hover{
+  opacity: 0.8;
+}
+
+.support-article img{
+  width: 50%;
+  height: 100%;
+}
