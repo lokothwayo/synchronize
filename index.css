@@ -215,3 +215,45 @@ h6 {
   box-shadow: 0px 0px 40px 10px #000;
   border-radius: 10px;
 }
+
+.app-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ****************************** */
+.app-server-nav {
+  display: flex;
+  direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 0 0 5%;
+}
+
+.app-window-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  margin-top: 20%;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.dot:nth-child(1) {
+  background-color: #ff0000;
+}
+
+.dot:nth-child(2) {
+  background-color: #ffbb00;
+}
+
+.dot:nth-child(3) {
+  background-color: #03c203;
+}
