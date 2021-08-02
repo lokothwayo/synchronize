@@ -676,3 +676,61 @@ ion-icon:hover{
 .stats-1, .stats-2, .stats-3{
   border-right: 4px solid #ffffff;
 }
+
+/* ***********Why Section******** */
+.why-section{
+  height: 900px;
+  width: 100%;
+  background-color: #0c1014;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 50px;
+
+}
+
+.why-section-left{
+  height: 100%;
+  flex: 0 0 50%;
+
+}
+
+.l-angle{
+  margin-left: 40px;
+  margin-top: 10px;
+
+}
+
+.key-points{
+  margin-left: 120px;
+  margin-top: -15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 75%;
+}
+
+.why-section-left h4{
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+
+.why-section-left p{
+  font-size: 18px;
+  font-color: #a7a7a7;
+  line-height: 1.7;
+  text-align: justify;
+  margin: 5% 0;
+}
+
+.why-section-right{
+  height: 100%;
+  flex: 0 0 50%;
+
+}
+
+.why-section-right img{
+  height: 100%;
+  width: auto;
+}
