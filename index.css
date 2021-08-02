@@ -399,6 +399,7 @@ h6 {
   display: flex;
   flex-direction: column;
   flex: 0 0 55%;
+  padding: 20px;
 }
 
 .app-chat-section-nav{
@@ -546,4 +547,15 @@ ion-icon:hover{
 
 .send-outline{
   color:#379e73;
+}
+
+.app-right-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  flex: 0 0 20%;
+  background-color: #161b1f;
+  border-radius: 0 10px 10px 0; 
+  padding: 10px;
 }
