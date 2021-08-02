@@ -559,3 +559,84 @@ ion-icon:hover{
   border-radius: 0 10px 10px 0; 
   padding: 10px;
 }
+
+/* ******************* */
+
+/* App Users */
+
+.app-user{
+  width: 100%;
+  background-color: #0e101a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+.app-user img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+
+}
+
+.app-user-info{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.app-user p{
+  color:#6d6d6d;
+  font-size: 14px;
+}
+
+.cog-oultine{
+  color: #6d6d6d;
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.cog-oultine:hover{
+  transform: rotate(90deg);
+}
+
+/* App Widgets */
+.app-widgets{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.widget{
+  background-color: #0e101a;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 4px;
+  margin-top: 15px;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.widget:hover{
+  background-color: #1d222f;
+  color: #02f18e;
+}
+
+.widget img{
+  height: 35px;
+  
+}
+
+.widget-4 img, .widget-5 img{
+  height: 30px;
+}
