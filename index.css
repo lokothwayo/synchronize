@@ -734,3 +734,39 @@ ion-icon:hover{
   height: 100%;
   width: auto;
 }
+
+/* ***********About Section*********** */
+
+.about-section{
+  height: 800px;
+  background-color: #fcf9ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-section-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.about-section-content img{
+  height: 65vh;
+  width: 100%;
+  margin: 0px 50px;
+
+}
+
+.about-span{
+  color: #2020ff;
+  font-weight: 600;
+}
+
+.about-section-content p{
+  color: #000;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.3;
+}
