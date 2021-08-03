@@ -142,4 +142,202 @@
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
   }
+
+  /* Burger Animation */
+  :checked ~ .icon-burger .bar:nth-child(1) {
+    transform: translateY(7px) rotate(225deg);
+  }
+
+  :checked ~ .icon-burger .bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-225deg);
+  }
+
+  :checked ~ .icon-burger .bar:nth-child(2) {
+    opacity: 0;
+  }
+  /* Hero Section */
+
+  .hero-content {
+    top: 10%;
+  }
+
+  .hero-images {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25%;
+    margin-left: 40%;
+  }
+
+  .hero-images img {
+    width: 16vw;
+  }
+
+  .hero-desc {
+    top: 55%;
+  }
+
+  .download-btn {
+    transform: scale(0.8);
+  }
+
+  /* stats section */
+
+  .stats-section {
+    height: 100px;
+    padding: 50px;
+  }
+
+  /* about section */
+
+  .about-section-content {
+    flex-direction: column;
+  }
+
+  .about-section-content img {
+    margin: 15px 50px;
+  }
+
+  /* plan section */
+
+  .plan-title {
+    padding: 10px;
+  }
+
+  .plan-title h2 {
+    font-size: 5vw;
+  }
+
+  .plan-title p {
+    font-size: 16px;
+  }
+
+  .card-section {
+    flex-direction: column;
+    overflow: scroll;
+    border: 2px solid #fcf9ff;
+    padding: 5px;
+    width: fit-content;
+    margin-top: 20px;
+  }
+  .card {
+    height: 350px;
+    width: 250px;
+    margin: 10px;
+    box-shadow: none;
+  }
+
+  .card .card-plan {
+    margin-top: 5%;
+    line-height: 1.5;
+  }
+
+  .card .card-plan button {
+    height: 30px;
+    margin-top: 5%;
+  }
+  .card p {
+    font-size: 16px;
+  }
+
+  /* help section */
+
+  .support-artile img {
+    display: none;
+  }
+
+  .support-article {
+    margin-top: 10%;
+    width: 400px;
+    height: 650px;
+  }
+
+  /* footer section */
+
+  .footer-top {
+    justify-content: center;
+  }
+
+  .foote-top img {
+    height: 40px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 10px;
+  }
+
+  .footer-links li {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* hero section */
+
+  .hero-section {
+    height: 100vh;
+  }
+  .hero-images {
+    margin: 35%;
+  }
+
+  .hero-images img {
+    width: 30vw;
+  }
+
+  .hero-desc {
+    top: 65%;
+  }
+
+  .hero-desc p {
+    font-size: 3vw;
+  }
+
+  .download-btn {
+    margin-top: 10%;
+    transform: scale(0.7);
+  }
+  /* stats section */
+
+  .stats-section {
+    padding: 40px 0px;
+  }
+
+  .stats h3 {
+    font-size: 18px;
+  }
+  .stats p {
+    font-size: 12px;
+  }
+  /* why section */
+  .why-section-left h2 {
+    font-size: 8vw;
+  }
+  /* about section */
+
+  .about-section-content img {
+    margin: 15px 50px;
+  }
+
+  .about-section-text {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  /* support section */
+
+  .support-section {
+    height: 700px;
+  }
+
+  .support-section h2 {
+    font-size: 40px;
+  }
+
+  .support-article {
+    margin-top: 5%;
+    width: 300px;
+    height: 500px;
+    padding: 0;
+  }
 }
