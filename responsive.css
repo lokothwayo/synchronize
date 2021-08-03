@@ -47,3 +47,48 @@
     width: 1023px;
   }
 }
+
+@media only screen and (max-width: 1023px) {
+  .hero-section {
+    height: 750px;
+  }
+  .nav-links a {
+    font-size: 16px;
+  }
+  .open-btn {
+    transform: scale(0.7);
+  }
+  .hero-desc {
+    top: 40%;
+  }
+  /* app section */
+  .app-section {
+    display: none;
+  }
+  /* why section */
+
+  .why-section-left {
+    flex: 0 0 100%;
+  }
+
+  .l-angle {
+    display: none;
+  }
+
+  .key-points {
+    margin-left: 0;
+    margin-top: 5%;
+    height: 70%;
+  }
+
+  .why-section-right {
+    display: none;
+  }
+
+  /* support section */
+
+  .support-article {
+    width: 700px;
+    height: 600px;
+  }
+}
