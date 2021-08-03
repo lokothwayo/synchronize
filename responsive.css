@@ -92,3 +92,54 @@
     height: 600px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  /* hero section */
+  .open-btn {
+    display: none;
+  }
+
+  .navbar {
+    background-color: #000;
+    backdrop-filter: none;
+    justify-content: space-between;
+    padding: 0 5%;
+    height: 50px;
+  }
+
+  .nav-logo {
+    height: 30px;
+  }
+  .nav-links {
+    flex-direction: column;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 50px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(40px);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-links a {
+    font-size: 24px;
+  }
+
+  :checked ~ .nav-links {
+    bottom: 0;
+  }
+
+  .icon-burger .bar {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+}
