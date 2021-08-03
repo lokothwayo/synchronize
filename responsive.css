@@ -3,6 +3,11 @@
     width: 1200px;
     height: 80%;
   }
+
+  .app-media-grid {
+    grid-template-rows: 100px 100px 110px;
+    grid-template-columns: 100px 110px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -14,6 +19,10 @@
   .app-window {
     width: 1150px;
     height: 75%;
+  }
+
+  .app-media-grid {
+    grid-template-columns: 90px 100px;
   }
 
   /* stats sections */
